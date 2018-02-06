@@ -1,0 +1,20 @@
+{
+    "name": "my-app",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "antd": "^3.1.6",
+        "fusioncharts": "^3.12.2",
+        "react": "^16.2.0",
+        "react-dom": "^16.2.0",
+        "react-fusioncharts": "^1.0.4",
+        "react-scripts": "1.1.0"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test --env=jsdom",
+        "sass": "node-sass src/Styles/Scss/App.scss --output src/Styles/Output/",
+        "eject": "react-scripts eject"
+    }
+}
